@@ -28,7 +28,7 @@ $ ls /sys/firmware/efi/efivars
 # The following assumes a wired connection
 
 # Ensure your network interface is listed and enabled
-$ # ip link
+$ ip link
 
 # DHCP should work out of the box. Test it.
 $ ping archlinux.org
@@ -56,7 +56,7 @@ $ fdisk /dev/nvme0n1
 
 ```
 
-<TODO> Finish instructions
+TODO: Finish instructions
 
 
 ## Resources
