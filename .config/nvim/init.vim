@@ -1,5 +1,3 @@
-" Set leader key
-let mapleader = ","
 
 " use Unicode
 set encoding=utf-8
@@ -16,5 +14,6 @@ set number
 
 set termguicolors
 
+lua require('keymappings');
 lua require('init-plugins')
 lua require('theme')
