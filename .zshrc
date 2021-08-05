@@ -65,3 +65,6 @@ edn() {
   popd
   echo "init.vim updated."
 }
+
+# Copy to clipboard using kitty terminal + clipboard kitten
+alias cpboard='kitty +kitten clipboard'
