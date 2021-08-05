@@ -1,0 +1,12 @@
+# Ignore everything
+/*
+/.config/*
+
+# But these files...
+!.gitignore
+!.zshrc
+!/.config
+!/.config/nvim/
+!/.config/nvim/*
+!/.config/kitty/
+!/.config/kitty/*
