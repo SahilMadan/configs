@@ -66,5 +66,11 @@ edn() {
   echo "init.vim updated."
 }
 
+# Make and change directory
+function mkcd() {
+  mkdir -p $1
+  cd $1
+}
+
 # Copy to clipboard using kitty terminal + clipboard kitten
 alias cpboard='kitty +kitten clipboard'
