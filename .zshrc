@@ -61,9 +61,9 @@ edz(){
 # Edit nvim config
 edn() {
   pushd ~/.config/nvim/
-  nvim ./init.vim
+  nvim ./init.lua
   popd
-  echo "init.vim updated."
+  echo "init.lua updated."
 }
 
 # Make and change directory
