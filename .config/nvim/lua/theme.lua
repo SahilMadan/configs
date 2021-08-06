@@ -1,8 +1,8 @@
-local g = vim.g
+vim.o.termguicolors = true
+vim.o.guifont = 'JetBrainsMono Nerd Font'
 
--- Tokyo night
-g.tokyonight_style = "night"
-g.tokyonight_italic_functions = 1
-g.tokyonight_sidebars = {'qf', 'vista_kind', 'terminal', 'packer'}
-
+-- Tokyo night theme
+vim.g.tokyonight_style = "night"
+vim.g.tokyonight_italic_functions = 1
+vim.g.tokyonight_sidebars = {'qf', 'vista_kind', 'terminal', 'packer'}
 vim.cmd[[colorscheme tokyonight]]
