@@ -68,7 +68,6 @@ return require('packer').startup(function()
   use {
     'b3nj5m1n/kommentary',
     config = require'plugin.kommentary',
-    keys = { { "", "gc" } },
   }
 
   -- File Explorer
