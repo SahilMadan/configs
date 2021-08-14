@@ -44,9 +44,21 @@ capabilities.textDocument.completion.completionItem.resolveSupport = {
     'additionalTextEdits',
   }
 }
-
-local servers = {"clangd", "rust_analyzer", "gopls", "zls"}
+ 
+-- Generic default servers
+local servers = {"rust_analyzer", "gopls", "zls"}
 for _, lsp in ipairs(servers) do
     -- use wrapped one here
     nvim_lsp[lsp].setup { on_attach = on_attach, capabilities = capabilities }
 end
+
+-- clangd
+nvim_lsp["clangd"].setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  cmd = {
+    "clangd",
+    "--background-index",
+    "--fallback-style=Google",
+  },  
+}

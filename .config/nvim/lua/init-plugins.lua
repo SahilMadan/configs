@@ -89,4 +89,7 @@ return require('packer').startup(function()
   -- Snippets
   use {'hrsh7th/vim-vsnip'}
   use {'hrsh7th/vim-vsnip-integ'}
+
+  -- GLSL
+  use "tikhomirov/vim-glsl"
 end)

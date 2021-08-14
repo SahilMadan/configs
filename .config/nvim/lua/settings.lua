@@ -16,3 +16,6 @@ vim.o.expandtab = true
 vim.o.tabstop = 2
 vim.o.shiftwidth = 2
 vim.o.softtabstop = 2
+
+-- Syntax highlighting for .vs, .fs GLSL filetypes
+vim.api.nvim_command('autocmd! BufNewFile,BufRead *.vs,*.fs set ft=glsl')
