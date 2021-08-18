@@ -52,8 +52,11 @@ return require('packer').startup(function()
     end
   }
 
-  -- Colorscheme: Tokyo Night
+  -- Theme: Tokyo Night
   use {'folke/tokyonight.nvim'}
+
+  -- Theme: Nightfox
+  use 'EdenEast/nightfox.nvim'
 
   -- Tabline
   use {
