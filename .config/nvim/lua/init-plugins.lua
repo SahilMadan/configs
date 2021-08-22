@@ -53,10 +53,13 @@ return require('packer').startup(function()
   }
 
   -- Theme: Tokyo Night
-  use {'folke/tokyonight.nvim'}
+  use 'folke/tokyonight.nvim'
 
   -- Theme: Nightfox
   use 'EdenEast/nightfox.nvim'
+
+  -- Theme: Moonfly
+  use 'bluz71/vim-moonfly-colors'
 
   -- Tabline
   use {

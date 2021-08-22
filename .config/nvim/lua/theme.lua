@@ -8,4 +8,8 @@ vim.o.guifont = 'JetBrainsMono Nerd Font'
 -- vim.cmd[[colorscheme tokyonight]]
 
 -- Nightfox theme
-require('nightfox').set()
+-- require('nightfox').set()
+
+-- Moonfly theme
+vim.g.moonflyTransparent = 1
+vim.cmd[[colorscheme moonfly]]
