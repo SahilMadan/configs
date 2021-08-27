@@ -74,3 +74,10 @@ function mkcd() {
 
 # Copy to clipboard using kitty terminal + clipboard kitten
 alias cpboard='kitty +kitten clipboard'
+
+# Enable searching through history
+bindkey -v
+bindkey '^R' history-incremental-search-backward
+
+# Arch Linux: Use yay for aur packages only
+alias yay='yay --aur'
